@@ -1,0 +1,907 @@
+{
+  "metadata": {
+    "season": 4,
+    "seasonName": "Airport Hunt",
+    "totalMissions": 60,
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-15"
+  },
+  "maps": {
+    "farm": { "id": "farm", "name": "Farm", "nameEn": "Farm" },
+    "valley": { "id": "valley", "name": "Vale", "nameEn": "Valley" },
+    "northridge": { "id": "northridge", "name": "Northridge", "nameEn": "Northridge" },
+    "armory": { "id": "armory", "name": "Armory", "nameEn": "Armory" },
+    "tvstation": { "id": "tvstation", "name": "Estação de TV", "nameEn": "TV Station" },
+    "airport": { "id": "airport", "name": "Airport", "nameEn": "Airport" }
+  },
+  "missions": [
+    {
+      "id": 1,
+      "title": "Obstáculo Pacífico",
+      "titleEn": "Peaceful Obstacle",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Destrua os suprimentos em Recycling Station Hut em Farm.",
+        "Destrua os suprimentos em Motel Military Tent em Farm."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [2],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 2,
+      "title": "Corrente Subjacente",
+      "titleEn": "Undercurrent",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Stable/Recycling Station/Motel em Farm.",
+        "Vá até Artificial Lake Hut em Farm e vasculhe 1 computador doméstico não vasculhado."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [1],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 3,
+      "title": "Jogo de Longo Prazo",
+      "titleEn": "Long Game",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Vá até Wheatfield Farmhouse no lado leste de Farm e deixe uma marca na parede do quarto.",
+        "Vá até Cemetery Hut no lado oeste de Farm e deixe uma marca na parede do quarto.",
+        "Extraia de Farm 1 vez"
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 4,
+      "title": "Reconhecimento da Linha de Frente",
+      "titleEn": "Frontline Reconnaissance",
+      "map": ["valley"],
+      "requiredItems": ["Água de Nascente da Montanha", "Biscoito"],
+      "tasks": [
+        "Entre em Vale carregando Água de Nascente da Montanha.",
+        "Entre em Vale carregando Biscoito.",
+        "Coloque Água de Nascente da Montanha dentro de Abandoned Shack em Vale.",
+        "Coloque Biscoito dentro de Abandoned Shack em Vale."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 5,
+      "title": "Carta do Abismo",
+      "titleEn": "Letter from the Abyss",
+      "map": ["northridge"],
+      "requiredItems": ["Bloqueador de Sinal"],
+      "tasks": [
+        "Vá até Lakeside Helicopter Point e permaneça por 45 segundos.",
+        "Entre em Northridge com Bloqueador de Sinal.",
+        "Vá até Access Bridge e coloque Bloqueador de Sinal.",
+        "Entre em Northridge com Bloqueador de Sinal."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 6,
+      "title": "Dente por Dente",
+      "titleEn": "Tooth for Tooth",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Conclua 4 Urgent Missions em equipe em Vale."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 7,
+      "title": "Apoie o Flanco",
+      "titleEn": "Support the Flank",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 3 operadores no lado oeste de Farm.",
+        "Extraia de Farm 1 vez"
+      ],
+      "taskCount": 2,
+      "canDoTogether": [8],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 8,
+      "title": "Proteção e Responsabilidade",
+      "titleEn": "Protection and Responsibility",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 3 operadores no lado leste de Farm.",
+        "Vá até Villa em Farm e coloque letter."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [7],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 9,
+      "title": "Língua da Víbora",
+      "titleEn": "Viper's Tongue",
+      "map": ["northridge"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Cable Car Station, Parking Lot, ou Northridge Hotel em Northridge."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [10],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 10,
+      "title": "Avaliação de Risco",
+      "titleEn": "Risk Assessment",
+      "map": ["northridge"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Northridge using suppressed marksman rifle."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [9],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 11,
+      "title": "A Isca",
+      "titleEn": "The Bait",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Entregue 20 diversos itens de papel encontrados na Dark Zone.",
+        "Recupere o documento de inteligência do segundo andar da House em Farm."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 12,
+      "title": "Operação Especial",
+      "titleEn": "Special Operation",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 3 operadores em Vale."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 13,
+      "title": "Caixa-Preta",
+      "titleEn": "Black Box",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Conclua 4 Urgent Missions em equipe em Farm."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 14,
+      "title": "Controle de Danos",
+      "titleEn": "Damage Control",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Vasculhe 2 cofres criptografados não vasculhados em Farm.",
+        "Traga para fora 350,000 de valor em loot em uma única incursão."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 15,
+      "title": "Boas Intenções",
+      "titleEn": "Good Intentions",
+      "map": ["armory"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Armory Periphery em Armory."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 16,
+      "title": "Sinergia",
+      "titleEn": "Synergy",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Small Factory, Noan Courtyard, ou Supply Camp em Vale."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [17],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 17,
+      "title": "Sem Desafiar",
+      "titleEn": "Without Challenge",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Investigue completamente Noan Courtyard em Vale e extraia com sucesso.",
+        "Progresso +10 para cada contêiner vasculhado, +20 para cada inimigo eliminado e +10 para cada minuto sobrevivido.",
+        "Investigue completamente Small Factory Basement em Vale e extraia com sucesso.",
+        "Progresso +10 para cada contêiner vasculhado, +20 para cada inimigo eliminado e +10 para cada minuto sobrevivido."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [16],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 18,
+      "title": "Queimando Pontes",
+      "titleEn": "Burning Bridges",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Conclua 1 match em qualquer dificuldade em Vale."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "easy",
+      "category": "story"
+    },
+    {
+      "id": 19,
+      "title": "Sapo no Poço",
+      "titleEn": "Frog in the Well",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Ganhe Koen no Mercado.",
+        "Vasculhe 3 suitcases não vasculhados em RV Camp em Vale."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 20,
+      "title": "Respeito",
+      "titleEn": "Respect",
+      "map": ["armory"],
+      "requiredItems": [],
+      "tasks": [
+        "Entregue 20 diversos peças de computador encontrados na Dark Zone.",
+        "Coloque documento de inteligência em Underground Intelligence Center em Armory."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 21,
+      "title": "Descoberta Surpreendente",
+      "titleEn": "Surprising Discovery",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Extraia via Abandoned Shack em Vale 1 vez.",
+        "Fabrique 120 munições de 5.7x28mm L191 ammo em Trophy Room Workbench."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 22,
+      "title": "Aeroporto Abandonado",
+      "titleEn": "Abandoned Airport",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Investigue completamente Parking Lot em Estação de TV.",
+        "Progresso +10 para cada contêiner vasculhado, +20 para cada inimigo eliminado e +10 para cada minuto sobrevivido.",
+        "Vasculhe 7 Business não vasculhados Suitcases em Estação de TV."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 23,
+      "title": "Reagrupamento",
+      "titleEn": "Regrouping",
+      "map": ["valley"],
+      "requiredItems": ["Transceptor Portátil"],
+      "tasks": [
+        "Vá até Porto em Vale e permaneça por 60 segundos.",
+        "Entre em Vale carregando Transceptor Portátil.",
+        "Elimine 6 inimigos em Porto em Vale."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 24,
+      "title": "Sinal",
+      "titleEn": "Signal",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 3 operadores em Estação de TV using AMB-17/T191/U191."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 25,
+      "title": "Passagem Secreta do Sudoeste",
+      "titleEn": "Southwest Secret Passage",
+      "map": ["airport"],
+      "requiredItems": ["Binóculos com Telêmetro"],
+      "tasks": [
+        "Faça reconhecimento do interior da Área de Controle dentro da área designada do Ticket Hall 2F em Airport.",
+        "Entre em Airport carregando Binóculos com Telêmetro.",
+        "Abra o porta-malas de um carro em Airport 3 vezes."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 26,
+      "title": "Construindo uma Fortaleza",
+      "titleEn": "Building a Fortress",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 10 inimigos na margem norte do Lago Artificial (Fuel Storage, Construction Site, etc.) em Airport.",
+        "Vasculhe 3 cofres criptografados não vasculhados em Airport."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 27,
+      "title": "Investigação",
+      "titleEn": "Investigation",
+      "map": ["airport"],
+      "requiredItems": ["Capacete Tático KSS2", "Colete/Armadura Corporal Spartan B"],
+      "tasks": [
+        "Elimine 8 White Wolves em Airport.",
+        "Entre em Airport vestindo Capacete Tático KSS2 e Colete/Armadura Corporal Spartan B e equipado com um rifle de assalto M4A1 assault rifle."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 28,
+      "title": "Lockdown",
+      "titleEn": "Lockdown",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Vasculhe 10 biscuit não vasculhados tins em Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [29],
+      "difficulty": "easy",
+      "category": "story"
+    },
+    {
+      "id": 29,
+      "title": "Encontros Próximos",
+      "titleEn": "Close Encounters",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Vasculhe 4 cofres pequenos não vasculhados em Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [28],
+      "difficulty": "easy",
+      "category": "story"
+    },
+    {
+      "id": 30,
+      "title": "Emboscado",
+      "titleEn": "Ambushed",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Conclua 3 Urgent Missions em equipe em Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 31,
+      "title": "Chamariz",
+      "titleEn": "Decoy",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Investigue aeronave designada em Outdoor Exhibition Area em Airport.",
+        "Investigue o veículo designado em Parking Lot em Airport.",
+        "Investigue buraco na parede em Torre de Controle em Airport."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 32,
+      "title": "Velho Rival",
+      "titleEn": "Old Rival",
+      "map": ["airport"],
+      "requiredItems": ["Dispositivo de Comunicação Individual T-147"],
+      "tasks": [
+        "Entre em Airport carregando Dispositivo de Comunicação Individual T-147.",
+        "Coloque Dispositivo de Comunicação Individual T-147 em Military Post em Airport.",
+        "Traga para fora 2 armas primárias de Airport."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 33,
+      "title": "Movimento de Pinça",
+      "titleEn": "Pincer Movement",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Colete 15 provisions em Airport.",
+        "Use Dispositivo de Recuperação de Suprimentos em Airport e traga para fora um total de loot no valor de 750,000."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 34,
+      "title": "A Armadilha",
+      "titleEn": "The Trap",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Vasculhe 6 dumpsters não vasculhados em Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "easy",
+      "category": "story"
+    },
+    {
+      "id": 35,
+      "title": "Interceptação na Linha de Frente",
+      "titleEn": "Frontline Interception",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Vá até área designada na Zona Militar em Airport para investigar (Área de Controle Permission Card needed)."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 36,
+      "title": "Avanço Imprudente",
+      "titleEn": "Reckless Advance",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine ou ajude eliminar 3 operadores fora da Área de Controle em Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 37,
+      "title": "Corrida Contra o Tempo",
+      "titleEn": "Race Against Time",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Traga para fora 7 itens de energia de Airport.",
+        "Entregue 3 purple ou higher-quality itens de energia encontrados na Dark Zone."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 38,
+      "title": "Medidas de Emergência",
+      "titleEn": "Emergency Measures",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Traga para fora 15 diversos itens médicos de Airport.",
+        "Fabrique 120 munições de .45 caliber AP ammo em Trophy Room Workbench."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 39,
+      "title": "Contra o Vento",
+      "titleEn": "Against the Wind",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 6 inimigos em Airport com grenade.",
+        "Extraia via Helicopter Extraction Point em Airport 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 40,
+      "title": "Fuga",
+      "titleEn": "Escape",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 1 operador na Área de Controle em Airport.",
+        "Extraia via Elevador Central em Airport 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 41,
+      "title": "Próximo Campo de Batalha",
+      "titleEn": "Next Battlefield",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Vá até Stable Hut em Farm e investigue as pistas.",
+        "Investigue completamente Motel em Farm.",
+        "Progresso +10 para cada contêiner vasculhado, +20 para cada inimigo eliminado e +10 para cada minuto sobrevivido."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 43,
+      "title": "Missão Fracassada",
+      "titleEn": "Failed Mission",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Traga para fora 15 purple ou higher-quality diversos items de Estação de TV.",
+        "Extraia de Entrada Principal em Estação de TV 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 44,
+      "title": "Passado de Edelweiss",
+      "titleEn": "Edelweiss Past",
+      "map": ["valley"],
+      "requiredItems": ["Capacete Militar SH18", "Colete/Armadura 6B23"],
+      "tasks": [
+        "Entre em Vale vestindo Capacete Militar SH18 e Colete/Armadura 6B23, e segurando um rifle de assalto AKM.",
+        "Vá até Radar Station em Vale e permaneça por 30 segundos.",
+        "Vá até Frontier Positions em Vale e permaneça por 30 segundos.",
+        "Vá até Supply Camp em Vale e permaneça por 30 segundos."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 45,
+      "title": "Coisas Estranhas na Farm",
+      "titleEn": "Strange Things at Farm",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, eliminate 2 chefes em Farm."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 46,
+      "title": "Rápido nos Pés",
+      "titleEn": "Quick on Feet",
+      "map": ["northridge"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 5 inimigos em Northridge using ML lever-action rifle."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 47,
+      "title": "Fantasma do Passado",
+      "titleEn": "Ghost of the Past",
+      "map": ["armory", "farm", "tvstation", "valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, vasculhe contêineres de airdrop 3 vezes em Farm.",
+        "Na dificuldade Lockdown, vasculhe contêineres de airdrop 3 vezes em Vale.",
+        "Em Lockdown ou Forbidden Zone, vasculhe caixas de airdrop 2 vezes em Estação de TV.",
+        "Em Lockdown ou Forbidden Zone, vasculhe contêineres de airdrop 3 vezes em Armory."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 48,
+      "title": "Retorno de Edelweiss",
+      "titleEn": "Edelweiss Return",
+      "map": ["valley"],
+      "requiredItems": [],
+      "tasks": [
+        "Na dificuldade Lockdown, eliminate 8 inimigos em Vale while as duas pernas estão quebradas."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 49,
+      "title": "Aniquilação em Equipe",
+      "titleEn": "Team Annihilation",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, Vasculhe 7 contêineres médicos não vasculhados em Estação de TV.",
+        "Em Lockdown ou Forbidden Zone, extract via Elevator em Estação de TV 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 50,
+      "title": "Tropas Adicionais",
+      "titleEn": "Additional Troops",
+      "map": ["armory"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, use Dispositivo de Recuperação de Suprimentos em Armory para trazer para fora um total de loot no valor de 750,000.",
+        "Em Lockdown ou Forbidden Zone, extract via Canal Subterrâneo em Armory 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 51,
+      "title": "Pelo Nome",
+      "titleEn": "By Name",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, extract via Backstage Area em Estação de TV 1 vez.",
+        "Em Lockdown ou Forbidden Zone, extract via Interview Room (Backstage) em Estação de TV 1 vez.",
+        "Em Lockdown ou Forbidden Zone, extract via elevador de carga em Estação de TV 1 vez."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 52,
+      "title": "Contra-ataque",
+      "titleEn": "Counterattack",
+      "map": ["tvstation"],
+      "requiredItems": ["Granada de Luz M84"],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, use Granada de Luz M84 para afetar inimigos 6 vezes em Estação de TV.",
+        "Conclua 3 matches em qualquer dificuldade em Estação de TV."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 53,
+      "title": "Predador",
+      "titleEn": "Predator",
+      "map": ["airport", "tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, vasculhe não vasculhado cofres 5 vezes em Estação de TV ou Airport (excluindo cofres pequenos).",
+        "Extraia com sucesso de Estação de TV ou Airport 1 vez."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 54,
+      "title": "Golpe Pesado",
+      "titleEn": "Heavy Blow",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 8 Blackgold members em Airport using AEK/AK-12/AMB17."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 55,
+      "title": "Oportunidade de Ouro",
+      "titleEn": "Golden Opportunity",
+      "map": ["tvstation"],
+      "requiredItems": [],
+      "tasks": [
+        "Em Lockdown ou Forbidden Zone, vá até Central Área de Controle em Estação de TV e investigue completamente.",
+        "Progresso +10 para cada contêiner vasculhado, +20 para cada inimigo eliminado e +10 para cada minuto sobrevivido.",
+        "Em Lockdown ou Forbidden Zone, vá até The Vault em Estação de TV e esconda o arquivo."
+      ],
+      "taskCount": 3,
+      "canDoTogether": [],
+      "difficulty": "hard",
+      "category": "story"
+    },
+    {
+      "id": 56,
+      "title": "Pena de Corvo",
+      "titleEn": "Raven's Feather",
+      "map": ["northridge"],
+      "requiredItems": [],
+      "tasks": [
+        "Vasculhe 1 safe não vasculhados em Camp Services em Northridge.",
+        "Vasculhe 1 safe não vasculhados em Sawmill ou Sewage Plant em Northridge.",
+        "Vasculhe 1 safe não vasculhados em Comms Station em Northridge.",
+        "Vasculhe 1 safe não vasculhados em Cable Car Station em Northridge."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 57,
+      "title": "Janela de Oportunidade",
+      "titleEn": "Window of Opportunity",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Traga para fora 15 gold ou higher-quality diversos items de Airport."
+      ],
+      "taskCount": 1,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 58,
+      "title": "Déjà Vu",
+      "titleEn": "Déjà Vu",
+      "map": ["farm"],
+      "requiredItems": [],
+      "tasks": [
+        "Sobreviva por um total de 15 minutos em Farm.",
+        "Vá até Cemetery em Farm e observe lápide."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 59,
+      "title": "Confronto Final",
+      "titleEn": "Final Confrontation",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Investigue Lounge na Torre de Controle 2F em Airport.",
+        "Vá até Office na Torre de Controle 2F em Airport para investigar.",
+        "Investigue Observation Room na Torre de Controle 2F em Airport.",
+        "Vá até Control Center Storage Room na Torre de Controle 1F em Airport para investigar."
+      ],
+      "taskCount": 4,
+      "canDoTogether": [60],
+      "difficulty": "normal",
+      "category": "story"
+    },
+    {
+      "id": 60,
+      "title": "Bandeira ao Vento",
+      "titleEn": "Flag in the Wind",
+      "map": ["airport"],
+      "requiredItems": [],
+      "tasks": [
+        "Elimine 10 inimigos dentro de Torre de Controle em Airport.",
+        "Vasculhe 2 cofres criptografados não vasculhados dentro de Torre de Controle em Airport."
+      ],
+      "taskCount": 2,
+      "canDoTogether": [59],
+      "difficulty": "normal",
+      "category": "story"
+    }
+  ]
+}
